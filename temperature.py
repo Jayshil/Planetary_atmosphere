@@ -18,8 +18,11 @@ def temp_gh(x):
 	elif (x == 'Earth') or (x == 'earth'):
 		tau = 0.83
 	elif (x == 'Mars') or (x == 'mars'):
-		tau = 0.2	
+		tau = 0.2
+	elif (x == 'Mercury') or (x == 'mercury'):
+		tau = 0	
 	else:
-		print("Error: Data is not available for this planet. Can't calculate Greenhouse Temperature")
+		print("This will give the approximate results for Jovian Planets as their data is not totally available")
+		tau = 0
 	t_g = ((((temp(x))**4)*(1+(0.75*tau)))**0.25).decompose()
 	return t_g
