@@ -30,3 +30,5 @@ Main file is main.py
 This file will calculate the equilibrium temperature of any planet. And will then use this equilibrium temperature to calculate the greenhouse temperature of that planet. Then, this file will plot the variation in temperature and pressure with change of height in atmosphere of any planet. All you need is to enter the name of the planet.
 
 This repository also includes hab_zone.py file. This file will calculate the variation in habitable zone around the sun over the age of the sun.
+
+[![astropy](http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat)](http://www.astropy.org/)
