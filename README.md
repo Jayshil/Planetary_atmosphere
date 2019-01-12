@@ -1,4 +1,4 @@
-# Planetory_atmosphere
+# Planetary_atmosphere
 This repository has codes that will calculate the equilibrium temperature, and variation in temperature and pressure with height
 
 The codes in this repository needs some initial data to run themselves.
